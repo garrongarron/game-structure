@@ -1,0 +1,32 @@
+.win,
+.lose,
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.win, 
+.lose{
+    flex-direction: column;
+}
+
+
+.win > button,
+.lose > button,
+.game > button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-color: orangered;
+    background-color: black;
+    color: orange;
+    margin: 15px;
+}
+
+.win > button:hover,
+.lose > button:hover,
+.game > button:hover{
+    color: yellow;
+}

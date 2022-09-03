@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.landing-page{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.landing-page > h1{
+    transform: translateY(-5vh);
+    font-size: 50px;
+    color: orangered;
+    text-shadow: 0px 0px 3px orange;
+}
+.landing-page > button{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-color: orangered;
+    background-color: black;
+    color: orange;
+}
+.landing-page > button:hover{
+    color: yellow;
+}
+.red{
+    border-color: red;
+}
+.green{
+    border-color: green;
+}
+.blue{
+    border-color: blue;
+}
+.yellow{
+    border-color: yellow;
+}
+
+.hide{
+    display: none !important;
+}
